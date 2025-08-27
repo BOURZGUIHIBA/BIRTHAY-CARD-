@@ -1,9 +1,8 @@
-# BIRTHAY-CARD-
 # 🎉 Birthday Card – Multilingual (HTML/CSS/JS)
 
-A simple, elegant **birthday card webpage** you can customize and share. Supports **multiple languages** (e.g., Français, English, العربية, Türkçe, Español…) and a personalized name like **Kaoutar**.
+A simple, elegant **birthday card webpage** you can customize and share. Supports **multiple languages** (e.g., Français, English, العربية, Türkçe, Español…).
 
-> 📌 Repo: `BOURZGUIHIBA/BIRTHAY-CARD-`
+> 📌 Repo: `BIRTHAY-CARD-`
 
 ---
 
@@ -11,7 +10,7 @@ A simple, elegant **birthday card webpage** you can customize and share. Support
 
 * **One‑page** birthday card (no build tools required)
 * **Multilingual greeting**: easily switch or cycle through many languages
-* **Personalized name & message** (e.g., *“Happy Birthday Kaoutar!”*)
+* **Personalized name & message**
 * **Confetti/animation** option
 * **Responsive** layout (mobile & desktop)
 * **Dark-friendly** color palette
@@ -42,11 +41,11 @@ A simple, elegant **birthday card webpage** you can customize and share. Support
 ### 1) Change the Name
 
 * Open `index.html` (or `app.js` if the logic is separated).
-* Find the variable or element for the **recipient name** and replace with your name, e.g. `Kaoutar`.
+* Find the variable or element for the **recipient name** and replace it.
 
 ### 2) Change the Message
 
-* Update the main message text (e.g., a short wish from Hiba to her sister).
+* Update the main message text (e.g., a short wish).
 
 ### 3) Colors & Fonts
 
@@ -65,11 +64,11 @@ Add or edit translations in `app.js` (or `translations.js`), for example:
 
 ```js
 const greetings = [
-  { lang: 'Français', text: 'Joyeux Anniversaire Kaoutar' },
-  { lang: 'English',  text: 'Happy Birthday Kaoutar' },
-  { lang: 'العربية',  text: 'عيد ميلاد سعيد كوثر' },
-  { lang: 'Türkçe',   text: 'Doğum Günün Kutlu Olsun Kaoutar' },
-  { lang: 'Español',  text: 'Feliz Cumpleaños Kaoutar' },
+  { lang: 'Français', text: 'Joyeux Anniversaire' },
+  { lang: 'English',  text: 'Happy Birthday' },
+  { lang: 'العربية',  text: 'عيد ميلاد سعيد' },
+  { lang: 'Türkçe',   text: 'Doğum Günün Kutlu Olsun' },
+  { lang: 'Español',  text: 'Feliz Cumpleaños' },
   // add as many as you like…
 ];
 ```
@@ -109,7 +108,7 @@ BIRTHAY-CARD-/
 
 ## 🧪 Testing Checklist
 
-* Text shows **“Happy Birthday Kaoutar”** in your languages.
+* Text shows birthday greetings in your languages.
 * Works on **mobile** (small screens) and desktop.
 * Fonts load correctly.
 * No overlapping animations; performance is smooth.
@@ -144,11 +143,3 @@ PRs to improve styles, add languages, or fix typos are welcome. Please keep the 
 ## 🧾 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and share.
-
----
-
-## 👩‍💻 Author
-
-**Hiba Bourzgui** – Made with love for **Kaoutar** 💗
-
-> Tip: If you publish with GitHub Pages, go to **Settings → Pages** and set the branch to `main` (or `docs`). Your card will be available as a shareable link.
