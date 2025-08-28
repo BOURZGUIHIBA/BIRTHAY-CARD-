@@ -1,6 +1,4 @@
-# 🎉 Birthday Card – Multilingual (HTML/CSS/JS)
-
-A simple, elegant **birthday card webpage** you can customize and share. Supports **multiple languages** (e.g., Français, English, العربية, Türkçe, Español…).
+# 🎉 Birthday Card –(HTML/CSS/JS)
 
 > 📌 Repo: `BIRTHAY-CARD-`
 
@@ -8,12 +6,12 @@ A simple, elegant **birthday card webpage** you can customize and share. Support
 
 ## ✨ Features
 
-* **One‑page** birthday card (no build tools required)
-* **Multilingual greeting**: easily switch or cycle through many languages
-* **Personalized name & message**
-* **Confetti/animation** option
-* **Responsive** layout (mobile & desktop)
-* **Dark-friendly** color palette
+* One‑page birthday card (no build tools required)
+* Multilingual greeting: easily switch or cycle through many languages
+* Personalized name & message
+* Confetti/animation option
+* Responsive layout (mobile & desktop)
+* Dark-friendly color palette
 
 ---
 
@@ -24,17 +22,8 @@ A simple, elegant **birthday card webpage** you can customize and share. Support
    ```bash
    git clone https://github.com/BOURZGUIHIBA/BIRTHAY-CARD-.git
    ```
-2. Open `index.html` directly in your browser (double-click) **or** use a simple local server:
+2. Open `index.html` directly in your browser (double-click) or use a simple local server:
 
-   ```bash
-   # Python 3
-   python -m http.server 8080
-   # then visit http://localhost:8080
-   ```
-
-> No dependencies. Works offline.
-
----
 
 ## 🛠️ Customize
 
@@ -142,4 +131,4 @@ PRs to improve styles, add languages, or fix typos are welcome. Please keep the 
 
 ## 🧾 License
 
-This project is licensed under the **MIT License**. You are free to use, modify, and share.
+This project is licensed under the MIT License. You are free to use, modify, and share.
